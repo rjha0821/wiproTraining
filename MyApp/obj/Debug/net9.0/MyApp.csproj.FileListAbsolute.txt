@@ -1,0 +1,14 @@
+R:\wiproDotNetTraining\MyApp\bin\Debug\net9.0\MyApp.exe
+R:\wiproDotNetTraining\MyApp\bin\Debug\net9.0\MyApp.deps.json
+R:\wiproDotNetTraining\MyApp\bin\Debug\net9.0\MyApp.runtimeconfig.json
+R:\wiproDotNetTraining\MyApp\bin\Debug\net9.0\MyApp.dll
+R:\wiproDotNetTraining\MyApp\bin\Debug\net9.0\MyApp.pdb
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.AssemblyInfoInputs.cache
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.AssemblyInfo.cs
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.csproj.CoreCompileInputs.cache
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.dll
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\refint\MyApp.dll
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.pdb
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\MyApp.genruntimeconfig.cache
+R:\wiproDotNetTraining\MyApp\obj\Debug\net9.0\ref\MyApp.dll
