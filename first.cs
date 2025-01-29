@@ -83,6 +83,16 @@ public class Program
             a[i] = Convert.ToInt32(Console.ReadLine());
         }
         PrintArray(a);
+        manipulate(ref a);    //refrence need initialization
+        Console.WriteLine("--------------After manipulate--------------");
+        PrintArray(a);
+        int r,c,b; 
+        Console.Write("Enter b");
+        c = int.Parse(Console.ReadLine());
+        Console.Write("Enter c");
+        b = int.Parse(Console.ReadLine());
+        Console.WriteLine($"quotient {Division(b,c,out r)} remainder {r}");
+
     }
 
     public static void PrintArray(int[] a)
@@ -91,6 +101,15 @@ public class Program
         {
             Console.WriteLine("Your Entered Value is: " + val);
         }
+    }
+    static void manipulate(ref int[] a){
+        for (int i=0; i<a.Length; i++){
+            a[i] = a[i]+1;
+        }
+    }
+    static int Division(int a, int b, out int c){
+        c = a%b;
+        return a/b;
     }
 }
 
