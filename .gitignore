@@ -1,0 +1,16 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore cache files
+*.cache
+.cache/
+*.vs/
+.vscode/
+
+# Ignore user-specific settings
+*.user
+*.suo
+
+# Ignore test results
+TestResults/
