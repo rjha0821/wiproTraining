@@ -1,0 +1,14 @@
+@page
+@model AddBookModel
+@{
+    ViewData["Title"] = "Add Book";
+}
+
+<h1>Add a New Book</h1>
+
+<form method="post">
+    <input type="text" name="NewBook" required />
+    <button type="submit">Add</button>
+</form>
+
+<a asp-page="Books">Back to Books</a>

@@ -1,0 +1,25 @@
+@page
+@model MyRazorApp.Pages.Employees.EmployeeModel  // Reference the correct model class
+
+<h2>Employee List</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model.Employees)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Position</td>
+                <td>@emp.Salary</td>
+            </tr>
+        }
+    </tbody>
+</table>

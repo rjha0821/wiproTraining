@@ -1,0 +1,15 @@
+@page
+@model BooksModel
+@{
+    ViewData["Title"] = "Books List";
+}
+
+<h1>Books List</h1>
+<ul>
+    @foreach (var book in Model.Books)
+    {
+        <li>@book</li>
+    }
+</ul>
+
+<a asp-page="AddBook">Add a New Book</a>
