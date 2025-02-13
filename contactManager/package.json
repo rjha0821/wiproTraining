@@ -1,0 +1,14 @@
+{
+  "name": "contact-manager",
+  "version": "1.0.0",
+  "description": "A simple contact manager",
+  "type": "module",
+  "main": "dist/script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/script.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.2"
+  }
+}

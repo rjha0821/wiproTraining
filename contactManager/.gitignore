@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript build outputs
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.env
